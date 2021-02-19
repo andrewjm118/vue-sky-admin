@@ -33,9 +33,9 @@ export default {
     // { path: 'block/topology-map', name: 'topology-map', component: _import('material/block/map/topologyMap'), meta: { ...meta, title: '地图拓扑' }},
     // { path: 'block/rod-map', name: 'rod-map', component: _import('material/block/map/rodMap'), meta: { ...meta, title: '热点地图' }},
     // 模板
-    { path: 'template', name: 'material-template', component: _import('material/template/index'), meta: { ...meta, title: '模板' }},
-    { path: 'template/map', name: 'material-template-map', component: _import('material/template/map'), meta: { ...meta, title: '地图模板' }},
-    { path: 'template/disposal', name: 'material-template-disposal', component: _import('material/template/disposal'), meta: { ...meta, title: '处置系统' }},
+    // { path: 'template', name: 'material-template', component: _import('material/template/index'), meta: { ...meta, title: '模板' }},
+    // { path: 'template/map', name: 'material-template-map', component: _import('material/template/map'), meta: { ...meta, title: '地图模板' }},
+    // { path: 'template/disposal', name: 'material-template-disposal', component: _import('material/template/disposal'), meta: { ...meta, title: '处置系统' }},
     // 可视化
     { path: 'visual', name: 'material-visual', component: _import('material/visual/index'), meta: { ...meta, title: '可视化' }},
     { path: 'visual/border', name: 'material-visual-border', component: _import('material/visual/border'), meta: { ...meta, title: '可视化边框' }},

@@ -9,15 +9,15 @@ export default {
   iconSvg: 'material',
   children: [
     { path: '/material/index', title: '物料清单', iconSvg: 'material' },
-    {
-      path: '/material/template',
-      title: '模板',
-      icon: '',
-      children: [
-        { path: '/material/template/map', title: '地图', icon: 'map-marker' },
-        { path: '/material/template/disposal', title: '处置系统' }
-      ]
-    },
+    // {
+    //   path: '/material/template',
+    //   title: '模板',
+    //   icon: '',
+    //   children: [
+    //     { path: '/material/template/map', title: '地图', icon: 'map-marker' },
+    //     { path: '/material/template/disposal', title: '处置系统' }
+    //   ]
+    // },
     { path: '/material/block',
       title: '业务区块',
       icon: 'cube',
