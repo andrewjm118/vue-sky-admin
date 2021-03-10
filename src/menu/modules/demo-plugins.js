@@ -22,7 +22,7 @@ export default {
         { path: '/demo/plugins/export/txt', title: '文本' }
       ]
     },
-    { path: '/demo/plugins/clipboard-polyfill', title: '剪贴板访问', icon: 'clipboard' },
+    // { path: '/demo/plugins/clipboard-polyfill', title: '剪贴板访问', icon: 'clipboard' },
     { path: '/demo/plugins/day', title: '日期计算', icon: 'clock-o' },
     { path: '/demo/plugins/js-cookie', title: 'Cookie 读写', icon: 'asterisk' }
   ]

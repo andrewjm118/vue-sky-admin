@@ -6,7 +6,7 @@
 
 <template>
   <container>
-    这是一个功能库,研发部-前端组
+    一套开箱即用的中后台，提高开发效率
   </container>
 </template>
 

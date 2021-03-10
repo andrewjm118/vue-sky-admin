@@ -118,6 +118,10 @@ module.exports = {
       }])
 
     config
+      .plugin('webpack-bundle-analyzer')
+      .use(require('webpack-bundle-analyzer').BundleAnalyzerPlugin)
+
+    config
       // https://webpack.js.org/configuration/devtool/#development
       // .when(process.env.NODE_ENV === 'development',
       //   config => config.devtool('cheap-source-map')
@@ -129,10 +133,43 @@ module.exports = {
           propName: process.env.VUE_APP_SOURCE_VIEWER_PROP_NAME
         })
       )
-
+    var externals = {
+      vue: 'Vue',
+      axios: 'axios',
+      'element-ui': 'ELEMENT',
+      'vue-router': 'VueRouter',
+      vuex: 'Vuex'
+    }
     config
       .when(process.env.NODE_ENV !== 'development',
         config => {
+          config.externals(externals)
+          const cdn = {
+            css: [
+              // element-ui css
+              'https://cdn.bootcdn.net/ajax/libs/element-ui/2.12.0/theme-chalk/index.css'
+            ],
+            js: [
+              // vue
+              'https://cdn.bootcdn.net/ajax/libs/vue/2.6.10/vue.min.js',
+              // vue-router
+              'https://cdn.bootcdn.net/ajax/libs/vue-router/3.1.3/vue-router.min.js',
+              // vuex
+              'https://cdn.bootcdn.net/ajax/libs/vuex/3.1.2/vuex.min.js',
+              // axios
+              'https://cdn.bootcdn.net/ajax/libs/axios/0.18.0/axios.min.js',
+              // element-ui js
+              'https://cdn.bootcdn.net/ajax/libs/element-ui/2.12.0/index.js',
+              // faker
+              'https://cdn.bootcdn.net/ajax/libs/Faker/3.1.0/faker.min.js'
+            ]
+          }
+          // 通过 html-webpack-plugin 将 cdn 注入到 index.html 之中
+          config.plugin('html')
+            .tap(args => {
+              args[0].cdn = cdn
+              return args
+            })
           config
             .plugin('ScriptExtHtmlWebpackPlugin')
             .after('html')

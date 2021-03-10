@@ -17,7 +17,7 @@ export default {
   redirect: { name: 'demo-plugins-index' },
   component: layout,
   children: [
-    { path: 'clipboard-polyfill', name: 'demo-plugins-clipboard-polyfill', component: _import('demo/plugins/clipboard-polyfill'), meta: { ...meta, title: '剪贴板访问' }},
+    // { path: 'clipboard-polyfill', name: 'demo-plugins-clipboard-polyfill', component: _import('demo/plugins/clipboard-polyfill'), meta: { ...meta, title: '剪贴板访问' }},
     { path: 'day', name: 'demo-plugins-day', component: _import('demo/plugins/day'), meta: { ...meta, title: '日期计算' }},
     { path: 'export/table', name: 'demo-plugins-export-table', component: _import('demo/plugins/export/table.vue'), meta: { ...meta, title: '导出表格' }},
     { path: 'export/txt', name: 'demo-plugins-export-txt', component: _import('demo/plugins/export/txt.vue'), meta: { ...meta, title: '导出文本' }},

@@ -6,7 +6,7 @@ import material from './modules/material'
 // 插件
 import demoPlugins from './modules/demo-plugins'
 
-// 公共组件
+// 组件
 import demoComponents from './modules/demo-components'
 
 // 系统功能

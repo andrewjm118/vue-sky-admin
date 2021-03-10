@@ -63,7 +63,7 @@ export default {
     return axios({
       method: 'get',
       // withCredentials: true,
-      url: 'http://218.249.12.123:9062/Command/CyPanControl',
+      url: 'http://localhost:9062/Command/CyPanControl',
       params: {
         controlType: controlType,
         ip: ip

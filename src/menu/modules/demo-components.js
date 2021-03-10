@@ -1,47 +1,47 @@
 export default {
   path: '/demo/components',
-  title: '公共组件',
+  title: '组件',
   icon: 'puzzle-piece',
   children: [
     { path: '/demo/components/index', title: '扩展组件', icon: 'home' },
-    {
-      path: '/demo/components/container',
-      title: '布局容器',
-      icon: 'window-restore',
-      children: [
-        {
-          title: '填充型',
-          children: [
-            { path: '/demo/components/container/full', title: '基础', icon: '' },
-            { path: '/demo/components/container/full-slot', title: '插槽', icon: '' },
-            { path: '/demo/components/container/full-bs', title: '滚动优化', icon: '' }
-          ]
-        },
-        {
-          title: '隐形模式',
-          children: [
-            { path: '/demo/components/container/ghost', title: '基础', icon: '' },
-            { path: '/demo/components/container/ghost-slot', title: '插槽', icon: '' },
-            { path: '/demo/components/container/ghost-bs', title: '滚动优化', icon: '' }
-          ]
-        },
-        {
-          title: '卡片型',
-          children: [
-            { path: '/demo/components/container/card', title: '基础', icon: '' },
-            { path: '/demo/components/container/card-slot', title: '插槽', icon: '' },
-            { path: '/demo/components/container/card-bs', title: '滚动优化', icon: '' }
-          ]
-        },
-        {
-          title: '方法',
-          children: [
-            { path: '/demo/components/container/api?bs=false', title: '滚动控制', icon: '' },
-            { path: '/demo/components/container/api?bs=true', title: '滚动控制 BS', icon: '' }
-          ]
-        }
-      ]
-    },
+    // {
+    //   path: '/demo/components/container',
+    //   title: '布局容器',
+    //   icon: 'window-restore',
+    //   children: [
+    //     {
+    //       title: '填充型',
+    //       children: [
+    //         { path: '/demo/components/container/full', title: '基础', icon: '' },
+    //         { path: '/demo/components/container/full-slot', title: '插槽', icon: '' },
+    //         { path: '/demo/components/container/full-bs', title: '滚动优化', icon: '' }
+    //       ]
+    //     },
+    //     {
+    //       title: '隐形模式',
+    //       children: [
+    //         { path: '/demo/components/container/ghost', title: '基础', icon: '' },
+    //         { path: '/demo/components/container/ghost-slot', title: '插槽', icon: '' },
+    //         { path: '/demo/components/container/ghost-bs', title: '滚动优化', icon: '' }
+    //       ]
+    //     },
+    //     {
+    //       title: '卡片型',
+    //       children: [
+    //         { path: '/demo/components/container/card', title: '基础', icon: '' },
+    //         { path: '/demo/components/container/card-slot', title: '插槽', icon: '' },
+    //         { path: '/demo/components/container/card-bs', title: '滚动优化', icon: '' }
+    //       ]
+    //     },
+    //     {
+    //       title: '方法',
+    //       children: [
+    //         { path: '/demo/components/container/api?bs=false', title: '滚动控制', icon: '' },
+    //         { path: '/demo/components/container/api?bs=true', title: '滚动控制 BS', icon: '' }
+    //       ]
+    //     }
+    //   ]
+    // },
     {
       path: '/demo/components/layout/grid',
       title: '高级布局',

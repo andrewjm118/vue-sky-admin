@@ -5,33 +5,33 @@
  */
 export default {
   path: '/demo/playground',
-  title: '系统功能',
+  title: '功能',
   iconSvg: 'system',
   children: [
     { path: '/demo/playground/index', title: '功能', icon: 'home' },
-    {
-      title: 'svg 菜单图标',
-      icon: 'github-alt',
-      children: [
-        { title: 'star', iconSvg: 'star' },
-        { title: 'user', iconSvg: 'user' }
-      ]
-    },
-    {
-      title: '空菜单演示',
-      icon: 'folder-o',
-      children: [
-        {
-          title: '正在开发 1',
-          children: [
-            { title: '正在开发 1-1' },
-            { title: '正在开发 1-2' }
-          ]
-        },
-        { title: '正在开发 2' },
-        { title: '正在开发 3' }
-      ]
-    },
+    // {
+    //   title: 'svg 菜单图标',
+    //   icon: 'github-alt',
+    //   children: [
+    //     { title: 'star', iconSvg: 'star' },
+    //     { title: 'user', iconSvg: 'user' }
+    //   ]
+    // },
+    // {
+    //   title: '空菜单演示',
+    //   icon: 'folder-o',
+    //   children: [
+    //     {
+    //       title: '正在开发 1',
+    //       children: [
+    //         { title: '正在开发 1-1' },
+    //         { title: '正在开发 1-2' }
+    //       ]
+    //     },
+    //     { title: '正在开发 2' },
+    //     { title: '正在开发 3' }
+    //   ]
+    // },
     {
       path: '/demo/playground/frame',
       title: '内嵌网页',
@@ -49,55 +49,55 @@ export default {
         { path: 'https://gitee.com/new-tomorrow-studio/dashboard', title: 'gitee', icon: 'gitee' }
       ]
     },
-    {
-      path: '/demo/playground/store',
-      title: '全局状态管理',
-      icon: 'bolt',
-      children: [
-        { path: '/demo/playground/store/page', title: '多标签页控制', icon: 'window-restore' },
-        { path: '/demo/playground/store/menu', title: '菜单控制', icon: 'bars' },
-        { path: '/demo/playground/store/size', title: '全局尺寸', icon: 'font' },
-        { path: '/demo/playground/store/ua', title: '浏览器信息', icon: 'info-circle' },
-        { path: '/demo/playground/store/gray', title: '灰度模式', icon: 'eye' },
-        { path: '/demo/playground/store/fullscreen', title: '全屏', icon: 'arrows-alt' },
-        { path: '/demo/playground/store/theme', title: '主题', icon: 'diamond' },
-        { path: '/demo/playground/store/transition', title: '页面过渡开关', icon: 'toggle-on' }
-      ]
-    },
-    {
-      path: '/demo/playground/page-cache',
-      title: '页面缓存',
-      icon: 'hdd-o',
-      children: [
-        { path: '/demo/playground/page-cache/on', title: '开启缓存' },
-        { path: '/demo/playground/page-cache/off', title: '关闭缓存' },
-        { path: '/demo/playground/page-cache/params/1', title: '带参路由缓存 1' },
-        { path: '/demo/playground/page-cache/params/2', title: '带参路由缓存 2' }
-      ]
-    },
-    {
-      path: '/demo/playground/page-argu',
-      title: '参数传递和留存',
-      icon: 'assistive-listening-systems',
-      children: [
-        { path: '/demo/playground/page-argu/send', title: '发送' },
-        { path: '/demo/playground/page-argu/get/username-from-menu?userid=userid-from-menu', title: '接收' }
-      ]
-    },
-    {
-      path: '/demo/playground/db',
-      title: '数据持久化',
-      icon: 'database',
-      children: [
-        { path: '/demo/playground/db/all', title: '总览', icon: 'table' },
-        { path: '/demo/playground/db/public', title: '公共存储', icon: 'users' },
-        { path: '/demo/playground/db/user', title: '私有数据', icon: 'user' },
-        { path: '/demo/playground/db/page-public', title: '路由存储', icon: 'file-o' },
-        { path: '/demo/playground/db/page-user', title: '私有路由存储', icon: 'file-o' },
-        { path: '/demo/playground/db/page-snapshot-public', title: '路由快照', icon: 'file' },
-        { path: '/demo/playground/db/page-snapshot-user', title: '私有路由快照', icon: 'file' }
-      ]
-    },
+    // {
+    //   path: '/demo/playground/store',
+    //   title: '全局状态管理',
+    //   icon: 'bolt',
+    //   children: [
+    //     { path: '/demo/playground/store/page', title: '多标签页控制', icon: 'window-restore' },
+    //     { path: '/demo/playground/store/menu', title: '菜单控制', icon: 'bars' },
+    //     { path: '/demo/playground/store/size', title: '全局尺寸', icon: 'font' },
+    //     { path: '/demo/playground/store/ua', title: '浏览器信息', icon: 'info-circle' },
+    //     { path: '/demo/playground/store/gray', title: '灰度模式', icon: 'eye' },
+    //     { path: '/demo/playground/store/fullscreen', title: '全屏', icon: 'arrows-alt' },
+    //     { path: '/demo/playground/store/theme', title: '主题', icon: 'diamond' },
+    //     { path: '/demo/playground/store/transition', title: '页面过渡开关', icon: 'toggle-on' }
+    //   ]
+    // },
+    // {
+    //   path: '/demo/playground/page-cache',
+    //   title: '页面缓存',
+    //   icon: 'hdd-o',
+    //   children: [
+    //     { path: '/demo/playground/page-cache/on', title: '开启缓存' },
+    //     { path: '/demo/playground/page-cache/off', title: '关闭缓存' },
+    //     { path: '/demo/playground/page-cache/params/1', title: '带参路由缓存 1' },
+    //     { path: '/demo/playground/page-cache/params/2', title: '带参路由缓存 2' }
+    //   ]
+    // },
+    // {
+    //   path: '/demo/playground/page-argu',
+    //   title: '参数传递和留存',
+    //   icon: 'assistive-listening-systems',
+    //   children: [
+    //     { path: '/demo/playground/page-argu/send', title: '发送' },
+    //     { path: '/demo/playground/page-argu/get/username-from-menu?userid=userid-from-menu', title: '接收' }
+    //   ]
+    // },
+    // {
+    //   path: '/demo/playground/db',
+    //   title: '数据持久化',
+    //   icon: 'database',
+    //   children: [
+    //     { path: '/demo/playground/db/all', title: '总览', icon: 'table' },
+    //     { path: '/demo/playground/db/public', title: '公共存储', icon: 'users' },
+    //     { path: '/demo/playground/db/user', title: '私有数据', icon: 'user' },
+    //     { path: '/demo/playground/db/page-public', title: '路由存储', icon: 'file-o' },
+    //     { path: '/demo/playground/db/page-user', title: '私有路由存储', icon: 'file-o' },
+    //     { path: '/demo/playground/db/page-snapshot-public', title: '路由快照', icon: 'file' },
+    //     { path: '/demo/playground/db/page-snapshot-user', title: '私有路由快照', icon: 'file' }
+    //   ]
+    // },
     {
       path: '/demo/playground/log',
       title: '日志',
@@ -108,15 +108,15 @@ export default {
         { path: '/demo/playground/log/ajax', title: 'Ajax 错误', icon: 'bug' },
         { path: '/demo/playground/log/console', title: '控制台日志', icon: 'lightbulb-o' }
       ]
-    },
-    {
-      path: '/demo/playground/add-routes',
-      title: '动态添加路由',
-      icon: 'plus-square',
-      children: [
-        { path: '/demo/playground/add-routes/routes', title: '添加页面', icon: 'file-o' }
-      ]
     }
+    // {
+    //   path: '/demo/playground/add-routes',
+    //   title: '动态添加路由',
+    //   icon: 'plus-square',
+    //   children: [
+    //     { path: '/demo/playground/add-routes/routes', title: '添加页面', icon: 'file-o' }
+    //   ]
+    // }
   ]
 }
 

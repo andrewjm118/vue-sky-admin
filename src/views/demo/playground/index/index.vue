@@ -17,8 +17,8 @@ export default {
     return {
       menu,
       banner: {
-        title: '系统功能',
-        subTitle: '系统一些常用功能'
+        title: '功能',
+        subTitle: '一些常用功能'
       }
     }
   }

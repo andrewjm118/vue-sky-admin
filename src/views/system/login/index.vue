@@ -6,7 +6,7 @@
 <template>
   <container>
     <div class="login-container">
-      <video muted="" autoplay="" loop="" class="img" style="opacity:1"><source type="video/mp4" :src="`${$baseUrl}videos/photographer.mp4`"><p>not support!</p></video>
+      <video muted="" autoplay="" loop="" class="img" style="opacity:1"><source type="video/mp4" :src="`${$baseUrl}videos/111.mp4`"><p>not support!</p></video>
       <div class="logo">中后台管理系统</div>
       <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" autocomplete="on" label-position="left">
         <div class="login-form-content">

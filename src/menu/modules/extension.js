@@ -8,12 +8,12 @@ export default {
   title: '扩展',
   children: [
     {
-      path: '/extension/ui',
+      path: '/extension/ui/sky-ui',
       title: 'UI库',
-      icon: '',
-      children: [
-        { path: '/extension/ui/sky-ui', title: 'sky-ui', icon: 'envira' }
-      ]
+      icon: 'envira'
+      // children: [
+      //   { path: '/extension/ui/sky-ui', title: 'sky-ui', icon: 'envira' }
+      // ]
     }
   ]
 }
