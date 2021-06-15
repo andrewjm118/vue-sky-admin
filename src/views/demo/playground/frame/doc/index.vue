@@ -1,3 +1,3 @@
 <template>
-  <container-frame src="https://cn.vuejs.org/v2/guide/" />
+  <container-frame src="http://www.bootstrapmb.com/item/7274/preview" />
 </template>

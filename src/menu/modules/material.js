@@ -26,12 +26,12 @@ export default {
           { path: '/material/block/login1', title: '登录模板1', icon: 'user-circle' },
           { path: '/material/block/login2', title: '登录模板2', icon: 'user-circle' }
         ] },
-        // { title: '业务交互', children: [
-        //   { title: '视频' },
-        //   { path: '/material/block/easycvr', title: 'easycvr', icon: 'youtube-play' },
-        //   { path: '/material/block/api-test', title: 'api-test' }
-        // ]
-        // },
+        { title: '业务交互', children: [
+          { title: '视频' },
+          { path: '/material/block/easycvr', title: 'easycvr', icon: 'youtube-play' },
+          { path: '/material/block/api-test', title: 'api-test' }
+          ]
+        },
         { title: 'canvas', children: [
           { path: '/material/block/video-playback', title: '视频回放进度条', iconSvg: 'playback' },
           { path: '/material/block/canvas/time-bar', title: '时间进度条' }
@@ -40,6 +40,10 @@ export default {
         { title: '弹出框', children: [
           { path: '/material/block/pop-up', title: '弹出框' },
           { path: '/material/block/js-panel', title: 'jspanel-弹出框' }
+        ] },
+        { title: 'props双向绑定', children: [
+          { path: '/material/props/watch', title: 'watch观察者模式' },
+          { path: '/material/props/sync', title: 'sync修饰符模式' }
         ] }
         // { path: '/material/block/table',
         //   title: '表格',

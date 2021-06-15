@@ -29,6 +29,8 @@ export default {
     { path: 'block/pop-up', name: 'material-block-pop-up', component: _import('material/block/pop-up'), meta: { ...meta, title: '弹出框' }},
     { path: 'block/js-panel', name: 'material-block-js-panel', component: _import('material/block/pop-up/js-panel'), meta: { ...meta, title: 'jspanel弹出框' }},
     { path: 'block/canvas/time-bar', name: 'material-block-canvas-time-bar', component: _import('material/block/canvas/time-bar'), meta: { ...meta, title: '时间进度条' }},
+    { path: 'props/watch', name: 'material-props-watch', component: _import('material/props/watch'), meta: { ...meta, title: 'watch观察者模式' }},
+    { path: 'props/sync', name: 'material-props-sync', component: _import('material/props/sync'), meta: { ...meta, title: 'sync修饰符模式' }},
     // { path: 'block/geo-table', name: 'geo-table', component: _import('material/block/table/geoTable'), meta: { ...meta, title: 'geoTable' }},
     // { path: 'block/topology-map', name: 'topology-map', component: _import('material/block/map/topologyMap'), meta: { ...meta, title: '地图拓扑' }},
     // { path: 'block/rod-map', name: 'rod-map', component: _import('material/block/map/rodMap'), meta: { ...meta, title: '热点地图' }},
